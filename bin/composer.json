@@ -1,0 +1,11 @@
+{
+    "name": "agsource/supplemental",
+    "respositories": [
+        {
+          "type": "vcs",
+           "url": "git@github.com:AgSource/supplemental.git"
+        }
+    ],
+    "require": {
+    }
+}
