@@ -1,11 +1,6 @@
 {
     "name": "agsource/supplemental",
-    "respositories": [
-        {
-          "type": "vcs",
-           "url": "git@github.com:AgSource/supplemental.git"
-        }
-    ],
-    "require": {
-    }
+    "type": "library",
+    "require": {},
+    "autoload": {"psr-4": {"Supplemental\\": "Library"}}
 }
