@@ -1,6 +1,14 @@
 {
-    "name": "agsource/supplemental",
-    "type": "library",
-    "require": {},
-    "autoload": {"psr-4": {"Supplemental\\": "Library"}}
+  "name": "agsource/supplemental",
+  "description": "Adds supplemental data (description, type hint, etc) to compatible packages",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ctranel",
+      "email": "ctranel@agsource.com"
+    }
+  ],
+  "require": {},
+  "autoload": {"psr-4": {"Supplemental\\": "Library"}}
 }
