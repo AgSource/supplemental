@@ -9,6 +9,5 @@
       "email": "ctranel@agsource.com"
     }
   ],
-  "require": {},
-  "autoload": {"psr-4": {"Supplemental\\": "Library"}}
+  "require": {}
 }
