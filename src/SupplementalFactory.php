@@ -1,9 +1,9 @@
 <?php
 namespace agsource\supplemental;
 
-require_once('src/Supplemental.php');
-require_once('src/SupplementalLink.php');
-require_once('src/SupplementalComment.php');
+require_once('Supplemental.php');
+require_once('SupplementalLink.php');
+require_once('SupplementalComment.php');
 
 use \agsource\supplemental\Supplemental;
 use \agsource\supplemental\SupplementalLink;

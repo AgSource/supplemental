@@ -1,7 +1,7 @@
 <?php
 namespace agsource\supplemental;
 
-require_once(APPPATH . 'libraries/Supplemental/Content/SupplementalLinkParam.php');
+require_once('SupplementalLinkParam.php');
 
 /**
 * Contains properties and methods specific supplemental data links for various sections of the website.
