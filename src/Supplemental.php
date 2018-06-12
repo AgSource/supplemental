@@ -1,15 +1,14 @@
 <?php
-namespace myagsource\Supplemental\Content;
+namespace agsource\supplemental;
 
-require_once(APPPATH . 'libraries/Supplemental/iSupplemental.php');
-require_once(APPPATH . 'libraries/Supplemental/Content/SupplementalLink.php');
-require_once(APPPATH . 'libraries/Supplemental/Content/SupplementalComment.php');
+require_once('src/iSupplemental.php');
+require_once('src/SupplementalLink.php');
+require_once('src/SupplementalComment.php');
 
-use \myagsource\Supplemental\Content\SupplementalLink;
-use \myagsource\Supplemental\Content\SupplementalComment;
-use \myagsource\Supplemental\iSupplemental;
+use \agsource\supplemental\SupplementalLink;
+use \agsource\supplemental\SupplementalComment;
+use \agsource\supplemental\iSupplemental;
 
-if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
 * Contains properties and methods specific supplemental data links for various sections of the website.
 *

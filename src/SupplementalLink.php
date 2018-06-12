@@ -1,6 +1,5 @@
 <?php
-namespace myagsource\Supplemental\Content;
-if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+namespace agsource\supplemental;
 
 require_once(APPPATH . 'libraries/Supplemental/Content/SupplementalLinkParam.php');
 

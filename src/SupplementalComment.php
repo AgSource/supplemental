@@ -1,7 +1,5 @@
 <?php
-namespace myagsource\Supplemental\Content;
-
-if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+namespace agsource\supplemental;
 
 /**
 * Contains properties and methods specific supplemental data comments for various sections of the website.

@@ -1,13 +1,13 @@
 <?php
-namespace myagsource\Supplemental\Content;
+namespace agsource\supplemental;
 
-require_once(APPPATH . 'libraries/Supplemental/Content/Supplemental.php');
-require_once(APPPATH . 'libraries/Supplemental/Content/SupplementalLink.php');
-require_once(APPPATH . 'libraries/Supplemental/Content/SupplementalComment.php');
+require_once('src/Supplemental.php');
+require_once('src/SupplementalLink.php');
+require_once('src/SupplementalComment.php');
 
-use \myagsource\Supplemental\Content\Supplemental;
-use \myagsource\Supplemental\Content\SupplementalLink;
-use \myagsource\Supplemental\Content\SupplementalComment;
+use \agsource\supplemental\Supplemental;
+use \agsource\supplemental\SupplementalLink;
+use \agsource\supplemental\SupplementalComment;
 
 if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
