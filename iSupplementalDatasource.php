@@ -1,4 +1,5 @@
 <?php
+namespace agsource\supplemental;
 
 interface iSupplementalDatasource{
  	/* -----------------------------------------------------------------
