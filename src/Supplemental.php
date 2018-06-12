@@ -1,7 +1,7 @@
 <?php
 namespace agsource\supplemental;
 
-require_once('../iSupplemental.php');
+require_once(dirname(__FILE__).'/../iSupplemental.php');
 require_once('SupplementalLink.php');
 require_once('SupplementalComment.php');
 

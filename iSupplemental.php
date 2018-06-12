@@ -1,6 +1,6 @@
 <?php
 
-namespace myagsource\Supplemental;
+namespace agsource\Supplemental;
 
 /**
  *
