@@ -9,7 +9,6 @@ use \agsource\supplemental\Supplemental;
 use \agsource\supplemental\SupplementalLink;
 use \agsource\supplemental\SupplementalComment;
 
-if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
 * Supplemental acts as a factory for supplemental links and supplemental comments.
 * 

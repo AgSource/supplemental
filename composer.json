@@ -9,5 +9,10 @@
       "email": "ctranel@agsource.com"
     }
   ],
+  "autoload": {
+    "psr-4": {
+      "supplemental\\" : "src/"
+    }
+  },
   "require": {}
 }
