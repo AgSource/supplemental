@@ -1,13 +1,9 @@
 <?php
 namespace agsource\supplemental;
 
-require_once(dirname(__FILE__).'/../iSupplemental.php');
+require_once('iSupplemental.php');
 require_once('SupplementalLink.php');
 require_once('SupplementalComment.php');
-
-use \agsource\supplemental\SupplementalLink;
-use \agsource\supplemental\SupplementalComment;
-use \agsource\supplemental\iSupplemental;
 
 /**
 * Contains properties and methods specific supplemental data links for various sections of the website.

@@ -3,8 +3,6 @@ namespace agsource\supplemental;
 
 require_once('iSupplementalDatasource.php');
 
-use \agsource\supplemental\iSupplementalDatasource;
-
 interface iSupplementalFactory
 {
 	/**

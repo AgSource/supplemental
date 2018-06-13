@@ -4,10 +4,8 @@ namespace agsource\supplemental;
 require_once('Supplemental.php');
 require_once('SupplementalLink.php');
 require_once('SupplementalComment.php');
-
-use \agsource\supplemental\Supplemental;
-use \agsource\supplemental\SupplementalLink;
-use \agsource\supplemental\SupplementalComment;
+require_once('iSupplementalFactory.php');
+require_once('iSupplementalDatasource.php');
 
 /**
 * Supplemental acts as a factory for supplemental links and supplemental comments.
@@ -17,7 +15,7 @@ use \agsource\supplemental\SupplementalComment;
 *
 */
 
-class SupplementalFactory
+class SupplementalFactory implements iSupplementalFactory
 {
 	/**
 	 * supplemental_datasource
@@ -39,7 +37,7 @@ class SupplementalFactory
 	 * @return void
 	 * @author ctranel
 	 **/
-	public function __construct(\supplemental_model $datasource, $site_url)
+	public function __construct(iSupplementalDatasource $datasource, $site_url)
 	{
 		$this->datasource = $datasource;
 		$this->site_url = $site_url;
